@@ -10,7 +10,7 @@ export default function Wrapper({ children }: { children: React.ReactNode }) {
 	});
 
 	return <Fragment>
-		<header className='flex justify-center items-center border-b border-black/50 h-17'>I AM A HEADER</header>
+		<header className='flex justify-center items-center border-b border-black/50 h-17'>I HEARD EDEN LIKES MEN</header>
 		{children}
 	</Fragment>;
 }

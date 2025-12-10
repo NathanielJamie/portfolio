@@ -10,7 +10,7 @@ export default function Page() {
 			const data = d.data as Array<{name: string}>;
 
 			setRepoCards(data.map((d, index) => (
-				<p key={index} className='flex items-center p-6 m-0 bg-blue-800 w-fit rounded-lg'>{d.name}</p>
+				<p key={index} className='flex items-center p-6 m-0 bg-blue-200 w-fit rounded-lg'>{d.name}</p>
 			)))
 		})
 	}, []);

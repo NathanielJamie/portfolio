@@ -1,0 +1,29 @@
+name: Website Deployment
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+
+      - run: yarn install
+      - run: yarn build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: dist/client
+          clean: true
+          single-commit: true
+          clean-exclude: |
+            .nojekyll
+
+permissions:
+  contents: write

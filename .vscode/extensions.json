@@ -1,0 +1,23 @@
+{
+	"recommendations": [
+		"csstools.postcss",
+		"ms-vscode.vscode-typescript-next",
+		"formulahendry.auto-rename-tag",
+		"steoates.autoimport",
+		"denoland.vscode-deno",
+		"kylejreed.deno-import-npm",
+		"laurencebahiirwa.deno-std-lib-snippets",
+		"ameerthehacker.deno-vscode",
+		"usernamehw.errorlens",
+		"bruceyuhb.hsl-preview",
+		"robco.tailwind-colour-picker",
+		"ecmel.vscode-html-css",
+		"htmlhint.vscode-htmlhint",
+		"zignd.html-css-class-completion",
+		"stringham.move-ts",
+		"christian-kohler.path-intellisense",
+		"bradlc.vscode-tailwindcss",
+		"bourhaouta.tailwindshades",
+		"biomejs.biome"
+	]
+}

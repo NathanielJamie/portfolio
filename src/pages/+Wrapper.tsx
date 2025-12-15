@@ -9,8 +9,10 @@ export default function Wrapper({ children }: { children: React.ReactNode }) {
 		display: 'swap',
 	});
 
-	return <Fragment>
-		<header className='flex justify-center items-center border-b border-black/50 h-17'>NUH UH</header>
-		{children}
-	</Fragment>;
+	return (
+		<Fragment>
+			<header className='flex justify-center items-center border-b border-black/50 h-17'>THIS IS GERRAD @</header>
+			{children}
+		</Fragment>
+	);
 }

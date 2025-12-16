@@ -1,6 +1,5 @@
 import axios from 'axios';
-import { ReactNode, useEffect, useState } from 'react';
-import { Fragment } from 'react/jsx-runtime';
+import { type ReactNode, useEffect, useState } from 'react';
 
 export default function Page() {
 	const [repoCards, setRepoCards] = useState<Array<ReactNode>>();
@@ -19,5 +18,5 @@ export default function Page() {
 		});
 	}, []);
 
-	return <div className='flex flex-col gap-3'>{repoCards}</div>;
+	return repoCards;
 }

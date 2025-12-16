@@ -28,7 +28,7 @@ export default function Portfolio() {
 			<div className='w-2/3 p-6'>
 				{/* Projects */}
 				<h3 className='text-xl font-bold mb-3'>My Projects</h3>
-				<div>
+				<div className='grid grid-cols-3 gap-8'>
 					<Page /> {/* Renders your GitHub repo cards */}
 				</div>
 			</div>

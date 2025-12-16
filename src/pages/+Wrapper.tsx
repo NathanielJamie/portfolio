@@ -13,7 +13,7 @@ export default function Wrapper() {
 		<Fragment>
 			{/* Header */}
 			<header className='flex justify-center items-center h-20 text-4xl font-bold text-white bg-gray-900 drop-shadow-lg'>
-				Portfolio
+				I like trains...
 			</header>
 
 			{/* Portfolio Content */}

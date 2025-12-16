@@ -11,7 +11,7 @@ export default function Page() {
 
 			setRepoCards(
 				data.map((d, index) => (
-					<p key={index} className='flex items-center p-6 m-0 bg-red-800 w-fit rounded-lg'>
+					<p key={index} className='flex items-center px-2 m-0 bg-gray-300 w-fit rounded-lg'>
 						{d.name}
 					</p>
 				))
